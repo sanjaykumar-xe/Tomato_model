@@ -1,0 +1,10 @@
+# Tomato Detection Dataset Configuration
+path: d:/datasets/tomato  # dataset root dir
+train: train/images  # train images (relative to 'path')
+val: val/images  # val images (relative to 'path')
+
+# Classes
+names:
+  0: green
+  1: half-ripened
+  2: ripened
