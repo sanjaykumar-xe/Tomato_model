@@ -1,0 +1,44 @@
+# Tomato Ripeness Detection Using YOLOv8
+
+A computer vision project for detecting tomato ripeness stages using the YOLOv8 object detection model.
+
+## Project Overview
+
+This project explores object detection for classifying tomatoes into three ripeness categories:
+
+* **Green** — Unripe tomatoes
+* **Half-Ripened** — Tomatoes transitioning toward ripeness
+* **Ripened** — Mature tomatoes
+
+The model is trained on an annotated tomato image dataset to identify and locate tomatoes in images.
+
+## Technologies Used
+
+* Python
+* YOLOv8
+* Computer Vision
+* Object Detection
+
+## Dataset
+
+The repository contains tomato images for model training and experimentation. Refer to the dataset structure and annotations in the repository before running training or evaluation.
+
+## Getting Started
+
+1. Clone this repository.
+2. Set up a Python environment.
+3. Install the required dependencies for your YOLOv8 setup.
+4. Configure the dataset paths and model settings.
+5. Run the appropriate training or inference script.
+
+## Future Improvements
+
+* Evaluate detection performance on unseen images.
+* Improve performance across lighting conditions and different backgrounds.
+* Document evaluation metrics and example predictions.
+
+## Author
+
+Sanjay Kumar
+
+GitHub: [sanjaykumar-xe](https://github.com/sanjaykumar-xe)
